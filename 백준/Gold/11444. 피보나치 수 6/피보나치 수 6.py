@@ -23,4 +23,4 @@ result = power(matrix, N)
 
 print(result[0][1] % 1000000007)
 
-# https://star7sss.tistory.com/358 풀이
+# https://star7sss.tistory.com/358 보고 풀음
