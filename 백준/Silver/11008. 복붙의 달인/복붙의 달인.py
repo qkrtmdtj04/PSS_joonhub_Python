@@ -1,14 +1,6 @@
-
-N = int(input())
-
+N=int(input())
 for _ in range(N):
-    end, cv = input().split()
-
-    t = end.count(cv)
-    if t > 0:
-        c = t*len(cv)
-        print(len(end)-c+t)
-             
-    else:
-        print(len(end))
-        break
+  e,v= input().split()
+  t=e.count(v)
+  c=t*len(v)
+  print(len(e)-c+t)
