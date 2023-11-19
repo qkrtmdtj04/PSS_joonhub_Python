@@ -1,5 +1,7 @@
-N,M = map(int,input().split())
-trees = list(map(int,input().split()))
+import sys
+
+N,M = map(int,sys.stdin.readline().split())
+trees = list(map(int,sys.stdin.readline().split()))
 
 
 start = 1
